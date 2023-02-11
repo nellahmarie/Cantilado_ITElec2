@@ -1,11 +1,13 @@
 package com.example.cantilado
+import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
-import android.widget.Toast
 import android.os.Bundle
 import android.util.Log
-import android.view.View
+
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -23,5 +25,11 @@ class MainActivity : AppCompatActivity() {
        button.setOnClickListener{
            Log.i(TAG, "This is a info log.");
        }
+
+        val btn = findViewById<Button>(R.id.btn6)
+        btn.setOnClickListener{
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

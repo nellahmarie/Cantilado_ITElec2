@@ -19,11 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
     }
-    public void onClick(View view){
-        Log.i(TAB, "Button Clicked");
-        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-        startActivities(intent);
-    }
+
 
 
 }
