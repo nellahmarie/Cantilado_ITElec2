@@ -20,13 +20,9 @@ class MainActivity : AppCompatActivity() {
         Log.w(TAG, "This is a warn log.");
         Log.e(TAG, "This is a error log.");
 
-       val button = findViewById(R.id.button2) as Button
 
-       button.setOnClickListener{
-           Log.i(TAG, "This is a info log.");
-       }
 
-        val btn = findViewById<Button>(R.id.btn6)
+        val btn = findViewById<Button>(R.id.button2)
         btn.setOnClickListener{
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
