@@ -1,6 +1,7 @@
 package com.example.cantilado
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.nfc.Tag
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.os.Bundle
@@ -27,5 +28,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
+
+        val button = findViewById<Button>(R.id.button2)
+
     }
 }

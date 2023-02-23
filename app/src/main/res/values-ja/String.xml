@@ -6,4 +6,7 @@
     <string name="to">To</string>
     <string name="subject">Subject</string>
     <string name="Message">Message</string>
+    <string name="Linearlayout">Linear Layout</string>
+    <string name="Relative">Relative Layout</string>
+    <string name="Constraint">Constraint Layout</string>
 </resources>
