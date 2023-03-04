@@ -8,4 +8,12 @@
     <string name="Linearlayout">Linear Layout</string>
     <string name="Relative">Relative Layout</string>
     <string name="Constraint">Constraint Layout</string>
+    <string name="search">SEARCH</string>
+    <string name="dog"> Dog </string>
+    <string name="cats"> Cats </string>
+    <string name="pirates"> Pirates </string>
+    <string name="ninjas">Ninjas</string>
+    <string name="on">ON</string>
+    <string name="toggles">Toggles</string>
+    <string name="select">select a robot...</string>
 </resources>
