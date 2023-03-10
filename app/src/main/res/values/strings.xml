@@ -31,5 +31,23 @@
         <item>.Net</item>
         <item>Perl</item>
     </string-array>
+
+    <string-array name="Robots_array">
+        <item>Linguo</item>
+        <item>The Mars Rover</item>
+        <item>The Pink Robots</item>
+        <item>Metal Gear Rex</item>
+        <item>‘Intergalactic’ Robot</item>
+        <item>T-1000</item>
+        <item>Maria</item>
+        <item>Sonny</item>
+        <item>R2-D2</item>
+        <item>Robble</item>
+        <item>Optimus Prime</item>
+        <item>BB-8</item>
+        <item>Dalek</item>
+        <item>C-3PO</item>
+        <item>Gart</item>
+    </string-array>
 </resources>
 
