@@ -18,6 +18,9 @@
     <string name="select">select a robot...</string>
     <string name="firstFragment"> First Fragment</string>
     <string name="secondFragment"> Second Fragment</string>
+    <color name="button_background_color">#FF4081</color>
+    <color name="button_bacground_color2">#98ddca</color>
+    <color name="button_bacground_color3">#ffd600</color>
 
     <string-array name="array_technology">
         <item>Android</item>

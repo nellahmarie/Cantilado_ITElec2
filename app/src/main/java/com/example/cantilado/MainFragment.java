@@ -32,7 +32,7 @@ public class MainFragment extends AppCompatActivity {
         secondFragment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                loadFragment(new FragmentA());
+                loadFragment(new FragmentB());
             }
         });
     }
@@ -41,5 +41,6 @@ public class MainFragment extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
         fragmentTransaction.replace(R.id.frameLayout, fragment);
+        fragmentTransaction.commit();
     }
 }

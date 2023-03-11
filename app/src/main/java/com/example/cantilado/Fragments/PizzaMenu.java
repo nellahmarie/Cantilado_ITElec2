@@ -15,10 +15,9 @@ import com.example.cantilado.Data.Pizza;
 /**
  * Created by Shyam Rokde on 8/5/16.
  */
+import com.example.cantilado.R;
 import com.example.cantilado.Data.Pizza;
 
-
-import com.example.cantilado.R;
 
 public class PizzaMenu extends Fragment {
 

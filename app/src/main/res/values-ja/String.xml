@@ -19,6 +19,9 @@
     <string name="select">select a robot...</string>
     <string name="firstFragment"> First Fragment</string>
     <string name="secondFragment"> Second Fragment</string>
+    <color name="button_background_color">#FF4081</color>
+    <string name="button_bacground_color2">#1a237e</string>
+    <string name="button_bacground_color3">#ffd600</string>
 
 
     <string-array name="array_technology">
