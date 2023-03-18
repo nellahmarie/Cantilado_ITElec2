@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class dialogframent extends androidx.fragment.app.DialogFragment {
+public class dialogfragment extends androidx.fragment.app.DialogFragment {
 
     @Nullable
     @Override
