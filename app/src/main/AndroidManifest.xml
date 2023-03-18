@@ -12,13 +12,25 @@
         android:theme="@style/Theme.Cantilado"
         tools:targetApi="31">
         <activity
-            android:name=".PizzaFragment"
+            android:name=".dialogframent"
+            android:exported="false" />
+        <activity
+            android:name=".DIALOGFRAGMENT_MAIN"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PizzaFragment"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".MainFragment"
@@ -31,10 +43,10 @@
         </activity>
         <activity
             android:name=".my_list"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ListActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
@@ -43,7 +55,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
     </application>
 
 </manifest>
